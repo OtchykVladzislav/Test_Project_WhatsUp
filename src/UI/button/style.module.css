@@ -1,0 +1,15 @@
+.button, .disabled{
+    background: #E3FFD1;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0.5px solid black;
+}
+
+.disabled{
+    background: gray;
+    color: black;
+    border: none;
+}
+

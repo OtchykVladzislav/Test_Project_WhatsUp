@@ -1,0 +1,27 @@
+.block_input{
+    width: 100%;
+    height: max-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.cross{
+    position: absolute;
+    right: 3%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cross:hover{
+    font-size: 27px;
+}

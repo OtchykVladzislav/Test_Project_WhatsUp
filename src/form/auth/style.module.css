@@ -1,0 +1,12 @@
+.block{
+    width: 500px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAE6E0;
+    padding: 10px;
+    border: 1px solid black;
+    z-index: 5;
+}

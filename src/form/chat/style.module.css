@@ -1,0 +1,66 @@
+.block{
+    width: 600px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAE6E0;
+    border: 0.1px solid white;
+    z-index: 5;
+}
+
+.header{
+    background: #064441;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+.body{
+    width: 100%;
+    height: 500px;
+    background-image: url('background.jpg');
+    overflow-y: auto;
+}
+
+.body::-webkit-scrollbar-track
+{
+	border: 1px solid white;
+	background-color: #F5F5F5;
+}
+
+.body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.body::-webkit-scrollbar-thumb
+{
+	background-color: #064441;	
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer>div:nth-child(2){
+    width: 90%;
+}
+
+.footer>div>input{
+    margin: 0;
+    padding: 8.5px;
+}
+
+.footer>button{
+    margin: 0;
+}

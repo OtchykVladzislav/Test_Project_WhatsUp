@@ -1,0 +1,8 @@
+.alert{
+    width: 100%;
+    background: rgb(241, 139, 139);
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
